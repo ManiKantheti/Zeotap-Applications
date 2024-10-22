@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Rule Engine</h1>
+
+<!-- Form to create individual rules -->
+<form id="createRuleForm">
+    <label for="ruleString">Rule String:</label>
+    <input type="text" id="ruleString" placeholder="Enter rule string">
+    <button type="submit">Create Rule</button>
+</form>
+
+<!-- Display all created rules -->
+<h2>Created Rules</h2>
+<div id="ruleList">
+    <!-- List of rules will appear here -->
+</div>
+
+<!-- Form to combine all rules -->
+<form id="combineRulesForm">
+    <button type="submit">Combine Rules</button>
+</form>
+
+<!-- Display combined rules -->
+<h2>Combined Rule</h2>
+<div id="combinedRule">
+    <!-- Combined rule will appear here -->
+</div>
+
+<!-- Form to evaluate combined rule -->
+<h2>Evaluate Combined Rule</h2>
+<form id="evaluateRuleForm">
+    <label for="userAttributes">User Attributes (JSON format):</label>
+    <textarea id="userAttributes" placeholder='{"age": 30, "department": "Sales", "salary": 50000}' rows="4" cols="50"></textarea>
+    <button type="submit">Evaluate Rule</button>
+</form>
+
+<h3>Evaluation Result:</h3>
+<div id="evaluationResult"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
