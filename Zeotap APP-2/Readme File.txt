@@ -14,8 +14,14 @@ The Weather Monitoring System is a Python application that monitors real-time we
 - Make sure Python 3.x is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 - Install the required libraries using pip:
 ""pip install pandas ,matplotlib, requests""
+And aslo need to import the libraries
+from datetime import datetime, timedelta
+import pandas as pd
+import time
+import requests
+import matplotlib.pyplot as plt
 
-
+Need to install these requirements in order to run the mainpy or extendapp.py file
 """""""For exact application we need to run the main.py application."""""""
 
 '''Execute the Code'''
