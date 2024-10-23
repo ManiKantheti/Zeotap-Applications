@@ -78,4 +78,4 @@ Application Features
 
 """Conclusion""""
 
-This application provides a simple yet effective way to manage and evaluate rules through a web interface. You can easily extend its functionality by adding more features or improving the rule evaluation logic. Enjoy building and using your rule engine!
+This application provides a simple yet effective way to manage and evaluate rules through a web interface. 
