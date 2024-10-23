@@ -92,4 +92,4 @@ Run the application with the following command:
 This project is open-source and available under the MIT License.
 
 
-Verify
+
